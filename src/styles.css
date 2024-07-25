@@ -1,0 +1,168 @@
+.navbar,
+.container-fluid {
+  margin: 0px !important;
+  padding: 0px !important;
+  background-color: #1c373e;
+}
+
+.nav-item :hover {
+  text-decoration: underline;
+}
+.wrapper {
+  background-color: rgb(5, 40, 40);
+  min-height: 73.7vh;
+}
+.navbar-brand {
+  padding-left: 50px;
+  font-weight: bolder;
+  font-size: 28px !important;
+}
+.navbar-nav {
+  padding-right: 50px;
+}
+.pass-me {
+  color: red;
+}
+.pass-me-div {
+  color: red;
+}
+.parent-container-div {
+  margin: 50px auto;
+  background-color: #d3d3d346;
+  border: 2px solid none;
+  border-radius: 5px;
+  width: 700px;
+  height: 310px;
+  padding: 30px 0;
+}
+
+.container-div input {
+  color: black;
+  background-color: #ffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 98%;
+  margin: 5px;
+  padding: 5px;
+}
+.container-div h1 {
+  margin-bottom: 4px;
+  text-align: center;
+}
+.container-div h3{
+  margin-bottom: 15px;
+  font-size: 16px;
+  text-align: center;
+  margin-left: 23px;
+}
+.container-div h3 span{
+  color: rgba(255, 0, 0, 0.871);
+  text-decoration: underline;
+  font-size: 17px;
+}
+.parent-container-div button {
+  margin: 3px;
+  width: 98%;
+  background-color: #ff4b5c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.password-container input[type="password"] {
+  width: 97%; /* Ensure the input takes full width of the container */
+  padding-right: 40px; /* Add padding to make space for the button */
+  position: relative;
+}
+
+.password-toggle-button {
+  position: absolute;
+  margin-right: 4px !important;
+
+  width: fit-content !important;
+  /* Center the button vertically */
+  transform: translateX(-140%);
+  background: none !important; /* Remove default background */
+  border: none; /* Remove default border */
+  cursor: pointer; /* Change cursor to pointer */
+  padding: 0; /* Remove padding */
+}
+
+.password-toggle-button img {
+  width: 30px; /* Adjust the width of the icon */
+  height: 20px; /* Adjust the height of the icon */
+}
+.displayManager {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto auto 5px auto;
+  padding: 20px; 
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.displayManager button {
+  margin-right: 5px;
+  color: #1c373e;
+  font-weight: 500;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #ff4b5c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff2b3c;
+}
+footer {
+  margin-top: 30px !important;
+  color: black;
+  background-color: rgb(32, 62, 69);
+  padding: 3px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 4.5rem;
+  font-size: large;
+  font-weight: bold;
+}
+.submit-btn {
+  display: inline;
+  justify-items: center;
+  align-items: center;
+}
+.submit-button {
+  font-weight: bold;
+  color: black !important;
+}
+
+/* Responsiveness */
