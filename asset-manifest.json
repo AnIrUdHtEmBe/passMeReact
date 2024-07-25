@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/passMeReact/static/css/main.f8051a8a.css",
+    "main.js": "/passMeReact/static/js/main.c74216f5.js",
+    "static/media/view.png": "/passMeReact/static/media/view.c19b9e3590579a3ec888.png",
+    "static/media/show-password.png": "/passMeReact/static/media/show-password.0415d0d4abf5480053c5.png",
+    "index.html": "/passMeReact/index.html",
+    "main.f8051a8a.css.map": "/passMeReact/static/css/main.f8051a8a.css.map",
+    "main.c74216f5.js.map": "/passMeReact/static/js/main.c74216f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8051a8a.css",
+    "static/js/main.c74216f5.js"
+  ]
+}
